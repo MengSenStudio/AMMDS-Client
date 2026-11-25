@@ -1,0 +1,11 @@
+.gitattributes text eol=lf
+# Flutter 构建生成的插件注册文件：由工具生成，固定使用 LF。
+# 否则在 core.autocrlf=true 的机器上工作区会是 CRLF，git 一直判定为「已修改」，
+# 而且这个假修改会一路冒泡到主仓库，让子模块在 git status 里永远显示为已修改。
+linux/flutter/generated_plugin_registrant.cc   text eol=lf
+linux/flutter/generated_plugin_registrant.h    text eol=lf
+linux/flutter/generated_plugins.cmake          text eol=lf
+macos/Flutter/GeneratedPluginRegistrant.swift  text eol=lf
+windows/flutter/generated_plugin_registrant.cc text eol=lf
+windows/flutter/generated_plugin_registrant.h  text eol=lf
+windows/flutter/generated_plugins.cmake        text eol=lf
